@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(224, 221, 221);
+    font-family: arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+main{
+    margin: 25px;
+}
+nav>a {
+    text-decoration: darkred none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+aside,
+footer {
+    text-align: center;
+}
+
+.destaque {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.conteudo {
+    border: black solid 1px;
+    padding: 10px;
+}
+
+h1.tema {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
